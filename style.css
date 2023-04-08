@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(211, 179, 137, 0.979);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(101, 19, 139);
+    color: rgb(212, 209, 187);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(212, 209, 187);
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(122, 193, 211);
+    font-size: larger;
+}
+.Welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("photo1.jpeg");
+    background-size: cover;
+    height: 730px;
+    text-align: center;
+    color: rgb(71, 112, 71);
+}
+.Welcome h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Welcome button{
+    padding: 10px 20px;
+    background-color: rgb(102, 14, 114);
+    font-size: 15px;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.about-us{
+    text-align: center;
+    padding: 40px 20px;
+}
+.about-us p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.about-us h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.gallery{
+    text-align: center;
+    padding: 50px 20px;
+}
+.gallery h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.images-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.images-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+footer p{
+    font-size: 15px;
+    color: #999;
+}
+footer{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: azure;
+}
